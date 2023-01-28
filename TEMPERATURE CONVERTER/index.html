@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<link rel="stylesheet" href="style.css" />
+
+		<script src="script.js" defer></script>
+
+		<title style="align-items:center ;">Temperature Converter</title>
+	</head>
+	<body>
+		<header>
+			<h1>Temperature Converter</h1>
+		</header>
+
+		<main >
+			
+
+			<section class="answer__section">
+				<p class="answer"></p>
+			</section>
+
+			<section class="input__section">
+				<form class="form" id="converter">
+					<div class="input-group">
+						<label for="fromTemperature">From</label>
+
+						<div class="inputs">
+							<input type="number" name="fromTemperature" id="fromTemperature" required />
+
+							<select name="fromUnit">
+								<option value="C">celsius</option>
+								<option value="F">Fahrenheit</option>
+								<option value="K">Kelvin</option>
+							</select>
+						</div>
+					</div>
+
+					<div class="input-group">
+						<label for="toUnit">To</label>
+
+						<div class="inputs">
+							<select name="toUnit" id="toUnit">
+								<option value="C" hidden disabled>celsius</option>
+								<option value="F">Fahrenheit</option>
+								<option value="K">Kelvin</option>
+							</select>
+						</div>
+					</div>
+
+					<button type="submit">Convert</button>
+				</form>
+			</section>
+			<div class="box">
+		
+			</div><div class="box1">
+		
+			</div><div class="box2">
+		
+			</div><div class="box3">
+		
+			</div>
+			
+		</main>
+	</body>
+</html>
