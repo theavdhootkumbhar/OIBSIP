@@ -1,2 +1,2 @@
 # OIBSIP
-oasis internship 
+Oasis Internship 
